@@ -1,0 +1,114 @@
+/* NAV BAR */
+#nav-1{
+    background-color: rgb(25, 47, 47);
+}
+#navlink{
+    color: white;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-weight: 500;
+    font-size: 15px;
+    opacity: 60%;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: 0.3s ease-in;
+    margin-left: 5em;
+}
+#navlink:hover{
+    opacity: 100%;
+    border-color: white;
+
+}
+#navlink-1{
+    color: white;
+}
+
+
+/* Container One */
+#cont-1{
+    height: 550px;
+    background-image: url(background.jpg); 
+    display:flex;
+    align-items: center;
+}
+#text-1{
+    font-weight: bold;
+    
+}
+#text-2{
+    font-weight: 600;
+}
+.link-learn{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(237, 240, 245);
+    transition: 0.3s ease;
+    opacity: 60%;
+}
+.link-learn:hover{
+    background-color: rgb(107, 148, 238);
+    opacity: 100%;
+}
+
+
+/*Container Two */
+#cont-2{
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap ;
+    gap: calc(10%);
+    justify-content: center;
+    background-color: #bab8b8; 
+    align-items: center;
+}
+.products{
+    height: 5%;
+    width: 50px; 
+    /* mix-blend-mode: color-burn;   */
+    align-items: center;
+}
+.products-cards{
+    border: 1px solid transparent;
+    vertical-align: baseline;
+    display: table-cell;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.1s ease-in;
+    width: 200px;
+}
+.products-cards:hover{
+    scale: calc(120%);
+}
+.link-products{
+    text-decoration: none;
+    color: black;
+}
+.wa-logo{   
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+
+/* Clients */
+#clients{
+    background-color: #7f7e7e;
+    height: 300px;
+}
+.clients-control{
+    display: flex;
+    flex-wrap: warp;
+    justify-content: center;
+    align-items: center;
+    gap: calc(10%);
+}
+#text-clients{
+    text-align: center;
+}
+#client-link{
+    text-decoration: none;
+    color: black;
+
+}
